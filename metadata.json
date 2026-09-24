@@ -1,0 +1,6 @@
+{
+  "name": "Garibook — Premium Mobility & Car Rental Platform",
+  "description": "Bangladesh's premier vehicle rental and intercity travel platform. Reserve chauffeur-driven sedans, microbuses, airport transfers, and intercity trips with transparent pricing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
