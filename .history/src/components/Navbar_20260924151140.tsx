@@ -153,7 +153,7 @@ export const Navbar: React.FC<Props> = ({
               <button
                 onClick={onOpenBooking}
                 type="button"
-                className="btn-uiverse btn-uiverse-emerald px-2.5 sm:px-5 py-2 text-xs sm:text-sm font-extrabold rounded-xl whitespace-nowrap flex items-center gap-1.5 cursor-pointer shadow-md"
+                className="btn-uiverse-solid px-2.5 sm:px-5 py-2 text-xs sm:text-sm font-extrabold rounded-xl whitespace-nowrap flex items-center gap-1.5 cursor-pointer shadow-md"
               >
                 <span className="hidden sm:inline">Book Chauffeur</span>
                 <span className="sm:hidden">Book</span>
@@ -239,7 +239,7 @@ export const Navbar: React.FC<Props> = ({
                 setMobileMenuOpen(false);
                 onOpenBooking();
               }}
-              className="btn-uiverse btn-uiverse-emerald w-full py-3.5 rounded-xl font-bold text-center active:scale-98 flex items-center justify-center gap-2 cursor-pointer shadow-lg"
+              className="btn-uiverse-solid w-full py-3.5 rounded-xl font-bold text-center active:scale-98 flex items-center justify-center gap-2 cursor-pointer shadow-lg"
             >
               <span>Instant Chauffeur Reservation</span>
               <ArrowRight className="w-4 h-4 stroke-[2.5]" />
